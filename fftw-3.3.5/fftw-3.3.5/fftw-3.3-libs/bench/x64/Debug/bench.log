@@ -1,0 +1,62 @@
+﻿生成启动时间为 2016/10/25 12:46:41。
+     1>项目“E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\bench.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\bench.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       MakeDirsForCl:
+         正在创建目录“E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\x64\Debug\libbench2”。
+         正在创建目录“E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\x64\Debug\bench”。
+       ClCompile:
+         D:\vs2010\VC\bin\x86_amd64\CL.exe /c /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\tests\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\api\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\dft\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\rdft\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\kernel\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\..\libbench2\\" /I"E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\..\libfftw-3.3\\" /Zi /nologo /W3 /WX- /Od /D FFTW_DLL /D WIN64 /D _WIN64 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\libbench2\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "..\..\libbench2\after-ccopy-from.c" "..\..\libbench2\after-ccopy-to.c" "..\..\libbench2\after-hccopy-from.c" "..\..\libbench2\after-hccopy-to.c" "..\..\libbench2\after-rcopy-from.c" "..\..\libbench2\after-rcopy-to.c" "..\..\libbench2\aligned-main.c" ..\..\libbench2\allocate.c ..\..\libbench2\aset.c "..\..\libbench2\bench-cost-postprocess.c" "..\..\libbench2\bench-exit.c" "..\..\libbench2\bench-main.c" "..\..\libbench2\can-do.c" ..\..\libbench2\caset.c ..\..\libbench2\dotens2.c ..\..\libbench2\info.c ..\..\libbench2\main.c ..\..\libbench2\mflops.c ..\..\libbench2\mp.c "..\..\libbench2\my-getopt.c" ..\..\libbench2\ovtpvt.c ..\..\libbench2\pow2.c ..\..\libbench2\problem.c ..\..\libbench2\report.c ..\..\libbench2\speed.c ..\..\libbench2\tensor.c ..\..\libbench2\timer.c ..\..\libbench2\util.c "..\..\libbench2\verify-dft.c" "..\..\libbench2\verify-lib.c" "..\..\libbench2\verify-r2r.c" "..\..\libbench2\verify-rdft2.c" ..\..\libbench2\verify.c ..\..\libbench2\zero.c
+         zero.c
+         verify.c
+         verify-rdft2.c
+         verify-r2r.c
+         verify-lib.c
+         verify-dft.c
+         util.c
+         timer.c
+         tensor.c
+         speed.c
+         report.c
+     1>..\..\libbench2\report.c(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\libbench2\report.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\libbench2\report.c(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\libbench2\report.c(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         problem.c
+     1>..\..\libbench2\problem.c(253): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\string.h(105) : 参见“strcpy”的声明
+         pow2.c
+         ovtpvt.c
+         my-getopt.c
+         mp.c
+         mflops.c
+         main.c
+         info.c
+         dotens2.c
+         Generating Code...
+         Compiling...
+         caset.c
+         can-do.c
+         bench-main.c
+         bench-exit.c
+         bench-cost-postprocess.c
+         aset.c
+         allocate.c
+         aligned-main.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\..\libbench2\aligned-main.c”: No such file or directory
+         after-rcopy-to.c
+         after-rcopy-from.c
+         after-hccopy-to.c
+         after-hccopy-from.c
+         after-ccopy-to.c
+         after-ccopy-from.c
+         Generating Code...
+     1>已完成生成项目“E:\学习资料\FFT lib\fftw-3.3.5\fftw-3.3.5\fftw-3.3-libs\bench\bench.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.21
